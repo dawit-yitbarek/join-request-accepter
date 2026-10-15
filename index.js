@@ -59,12 +59,12 @@ bot.on("message", async (ctx) => {
   const botUsername = botInfo.username;
 
   const descriptionMessage =
-    `👋 Hello! I am a **Join Request Accepter** bot.\n\n` +
+    `👋 Hello! I am a *Join Request Accepter* bot.\n\n` +
     `My job is to automatically approve join requests when users try to enter private channels or groups.\n\n` +
-    `**Want me in your private channel/group?**\n` +
-    `1. Add me as an **administrator** to your channel or group.\n` +
-    `2. Give me permission to **Invite Users via Link** (or manage chat requests).\n` +
-    `3. Turn on **Request Join** for your invite link.\n\n` +
+    `*Want me in your private channel/group?*\n` +
+    `1. Add me as an *administrator* to your channel or group.\n` +
+    `2. Give me permission to *Invite Users via Link* (or manage chat requests).\n` +
+    `3. Turn on *Request Join* for your invite link.\n\n` +
     `Anyone who requests to join will then be approved automatically and greeted instantly!`;
 
   try {
